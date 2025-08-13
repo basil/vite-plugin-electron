@@ -43,17 +43,6 @@ export default defineConfig(() => {
         },
       },
     },
-    plugins: [{
-      name: 'generate-types',
-      async closeBundle() {
-        if (istest) return
-
-        removeTypes()
-        await generateTypes()
-        moveTypesToDist()
-        removeTypes()
-      },
-    }],
   }
 })
 

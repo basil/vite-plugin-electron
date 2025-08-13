@@ -28,7 +28,7 @@
   },
   "author": "Leo Wang(草鞋没号) <308487730@qq.com>",
   "license": "MIT",
-  "packageManager": "pnpm@8.0.0",
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build",
